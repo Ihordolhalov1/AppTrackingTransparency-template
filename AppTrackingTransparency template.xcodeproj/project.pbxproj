@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		5DEB5C3728E5CDC600AFF43B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB5C3628E5CDC600AFF43B /* AppDelegate.swift */; };
 		5DEB5C3928E5CDC600AFF43B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB5C3828E5CDC600AFF43B /* SceneDelegate.swift */; };
-		5DEB5C3B28E5CDC600AFF43B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB5C3A28E5CDC600AFF43B /* ViewController.swift */; };
+		5DEB5C3B28E5CDC600AFF43B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB5C3A28E5CDC600AFF43B /* FirstViewController.swift */; };
 		5DEB5C3E28E5CDC600AFF43B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEB5C3C28E5CDC600AFF43B /* Main.storyboard */; };
 		5DEB5C4028E5CDC800AFF43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEB5C3F28E5CDC800AFF43B /* Assets.xcassets */; };
 		5DEB5C4328E5CDC800AFF43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEB5C4128E5CDC800AFF43B /* LaunchScreen.storyboard */; };
+		5DEB5C4D28E6185600AFF43B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB5C4C28E6185600AFF43B /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5DEB5C3328E5CDC600AFF43B /* AppTrackingTransparency template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppTrackingTransparency template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEB5C3628E5CDC600AFF43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DEB5C3828E5CDC600AFF43B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5DEB5C3A28E5CDC600AFF43B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DEB5C3A28E5CDC600AFF43B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		5DEB5C3D28E5CDC600AFF43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DEB5C3F28E5CDC800AFF43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DEB5C4228E5CDC800AFF43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DEB5C4428E5CDC800AFF43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEB5C4C28E6185600AFF43B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				5DEB5C3628E5CDC600AFF43B /* AppDelegate.swift */,
 				5DEB5C3828E5CDC600AFF43B /* SceneDelegate.swift */,
-				5DEB5C3A28E5CDC600AFF43B /* ViewController.swift */,
+				5DEB5C3A28E5CDC600AFF43B /* FirstViewController.swift */,
 				5DEB5C3C28E5CDC600AFF43B /* Main.storyboard */,
+				5DEB5C4C28E6185600AFF43B /* SecondViewController.swift */,
 				5DEB5C3F28E5CDC800AFF43B /* Assets.xcassets */,
 				5DEB5C4128E5CDC800AFF43B /* LaunchScreen.storyboard */,
 				5DEB5C4428E5CDC800AFF43B /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DEB5C3B28E5CDC600AFF43B /* ViewController.swift in Sources */,
+				5DEB5C4D28E6185600AFF43B /* SecondViewController.swift in Sources */,
+				5DEB5C3B28E5CDC600AFF43B /* FirstViewController.swift in Sources */,
 				5DEB5C3728E5CDC600AFF43B /* AppDelegate.swift in Sources */,
 				5DEB5C3928E5CDC600AFF43B /* SceneDelegate.swift in Sources */,
 			);

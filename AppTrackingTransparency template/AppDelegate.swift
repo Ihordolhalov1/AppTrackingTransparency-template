@@ -9,11 +9,23 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
+   
 
-
-
+ 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // this line is important
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+
+             let storyboard = UIStoryboard(name: "Main", bundle: nil)
+
+             let initialViewController = storyboard.instantiateViewController(withIdentifier: "SecondViewController")
+
+             self.window?.rootViewController = initialViewController
+             self.window?.makeKeyAndVisible()
+        
         return true
     }
 
@@ -30,7 +42,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
 
 }
 
